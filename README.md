@@ -7,12 +7,12 @@ Backup file: yoshinoya.sql
 
 ## Access
 
-- Admin
-E-Mail   : admin@admin.co.id
-Password : yoshinoya
-- Admin
-E-Mail   : karyawan@karyawan.co.id
-Password : karyawan
+Admin
+- E-Mail   : admin@admin.co.id
+- Password : yoshinoya
+Karyawan
+- E-Mail   : karyawan@karyawan.co.id
+- Password : karyawan
 
 ## License
 
