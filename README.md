@@ -1,4 +1,4 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://msinfokom.com/portal/wp-content/uploads/2017/09/logo-yoshinoya.png" width="400"></a></p>
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://cdn.freebiesupply.com/logos/large/2x/yoshinoya-1-logo-png-transparent.png" width="400"></a></p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
