@@ -23,3 +23,10 @@ Route::group(['prefix' => 'login', 'middleware' => 'web'], function () {
     Route::post('/login', 'LoginController@process');
     Route::get('/logout', 'LoginController@logout')->name('logout');
 });
+
+Route::group(['prefix' => 'page', 'middleware' => 'web'], function () {
+
+    Route::get('/dashboard', 'PageController@dashboard')->name('dashboard')->middleware('cekrole:dashboard');
+    Route::get('/master', 'PageController@master')->name('master')->middleware('cekrole:master');
+    Route::get('/datakaryawan', 'PageController@datakaryawan')->name('datakaryawan')->middleware('cekrole:datakaryawan');
+});

@@ -15,7 +15,7 @@ class LoginController extends Controller
     {
         if(Auth::check()) return redirect()->route('/');
         
-        echo Hash::make('karyawan');
+        // echo Hash::make('karyawan');
         return view('login');
     }
     

@@ -14,7 +14,7 @@
                 @if(Auth::check())
                     @foreach(\App\Master_role_menu::getMenu(auth()->user()->role_id) as $menu)
                         <li class="nav-item ml-2 mb-1">
-                            <a class="btn btn-white btn-block px-1 py-0 text-left" href="{{ route('logout') }}">{{ $menu->menu_name }}</a>
+                            <a class="btn btn-white btn-block px-1 py-0 text-left" href="{{ route($menu->url_link) }}">{{ $menu->menu_name }}</a>
                         </li>
                     @endforeach
 
