@@ -28,7 +28,7 @@ class CekRole
                         ->where('username_email', Auth::User()->username_email)
                         ->where('url_link', $url_link)->get();
             // dd(DB::getQueryLog());
-            if(empty($roles)) return abort(403, 'Unauthorized');
+            if(!$roles->count()) return abort(403, 'Unauthorized');
             return $next($request);
         }
         else return abort(403, 'Unauthorized');
