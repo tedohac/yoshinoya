@@ -10,6 +10,7 @@ Backup file: yoshinoya.sql
 Admin
 - E-Mail   : admin@admin.co.id
 - Password : yoshinoya
+
 Karyawan
 - E-Mail   : karyawan@karyawan.co.id
 - Password : karyawan
